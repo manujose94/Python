@@ -4,10 +4,16 @@ In this case, it's necessary to create one compiled file to we to able to exec t
 
 		pyinstaller --onefile myssh.py
 
+**Note**: if there is any problem like "command not found"
+
+`python -m PyInstaller --onefile myssh.py --name myssh` 
+
 If we won't have enough permissions, we would change them with the following command:
 
 		sudo chmod +x myssh.py
 
 For this example, once it's created the installer, we can launch it in the following manner:
 
-		./ssh.py -u student -h 192.168.225.130 -p student -c 'rosversion -d,rosnode list' 
+		./myssh -u student -h 192.168.225.130 -p student -c 'rosversion -d,rosnode list' 
+
+This python supports both python 2 and python 3.

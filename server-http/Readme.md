@@ -56,3 +56,7 @@ Installing dependencies from Pipfile.lock (980232)…
 To activate this project's virtualenv, run pipenv shell.
 Alternatively, run a command inside the virtualenv with pipenv run.
 ```
+
+ ## Note
+
+If you are using Python3 then you must change the name **pip** for **pip3**.
