@@ -43,7 +43,7 @@ mccabe==0.6.1
 monotonic==1.5
 mutagen==1.43.0
 netifaces==0.10.4
-numpy==1.18.2
+numpy==1.22.0
 oauthlib==2.1.0
 olefile==0.46
 packaging==19.1
