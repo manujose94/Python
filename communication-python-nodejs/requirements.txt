@@ -86,7 +86,7 @@ sip==4.19.18
 six==1.12.0
 soupsieve==1.9.5
 spotdl==1.2.4
-spotipy==2.7.1
+spotipy==2.22.1
 ssh-import-id==5.7
 system-service==0.3
 systemd-python==234
